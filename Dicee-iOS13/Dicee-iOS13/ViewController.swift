@@ -20,10 +20,10 @@ class ViewController: UIViewController {
         UIImage(imageLiteralResourceName: "DiceFive"),
         UIImage(imageLiteralResourceName: "DiceSix")
     ]
+    
     @IBAction func rollButtonPressed(_ sender: UIButton) {
         diceImageViewOne.image = diceImages[Int.random(in: 0...5)]
         diceImageViewSecond.image = diceImages[Int.random(in: 0...5)]
     }
-    
 }
 
