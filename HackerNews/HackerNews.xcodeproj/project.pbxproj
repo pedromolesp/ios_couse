@@ -11,6 +11,8 @@
 		9803D4CB2C7CB6B200BE2840 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9803D4CA2C7CB6B200BE2840 /* ContentView.swift */; };
 		9803D4CD2C7CB6B400BE2840 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9803D4CC2C7CB6B400BE2840 /* Assets.xcassets */; };
 		9803D4D02C7CB6B400BE2840 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9803D4CF2C7CB6B400BE2840 /* Preview Assets.xcassets */; };
+		9803D4D82C7D0AAB00BE2840 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9803D4D72C7D0AAB00BE2840 /* NetworkManager.swift */; };
+		9803D4DA2C7D0CD000BE2840 /* PostData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9803D4D92C7D0CD000BE2840 /* PostData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		9803D4CA2C7CB6B200BE2840 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9803D4CC2C7CB6B400BE2840 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9803D4CF2C7CB6B400BE2840 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9803D4D72C7D0AAB00BE2840 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NetworkManager.swift; path = Models/NetworkManager.swift; sourceTree = "<group>"; };
+		9803D4D92C7D0CD000BE2840 /* PostData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PostData.swift; path = Models/PostData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 				9803D4CA2C7CB6B200BE2840 /* ContentView.swift */,
 				9803D4CC2C7CB6B400BE2840 /* Assets.xcassets */,
 				9803D4CE2C7CB6B400BE2840 /* Preview Content */,
+				9803D4D72C7D0AAB00BE2840 /* NetworkManager.swift */,
+				9803D4D92C7D0CD000BE2840 /* PostData.swift */,
 			);
 			path = HackerNews;
 			sourceTree = "<group>";
@@ -138,6 +144,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9803D4CB2C7CB6B200BE2840 /* ContentView.swift in Sources */,
+				9803D4DA2C7D0CD000BE2840 /* PostData.swift in Sources */,
+				9803D4D82C7D0AAB00BE2840 /* NetworkManager.swift in Sources */,
 				9803D4C92C7CB6B200BE2840 /* HackerNewsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
