@@ -13,6 +13,8 @@
 		9803D4D02C7CB6B400BE2840 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9803D4CF2C7CB6B400BE2840 /* Preview Assets.xcassets */; };
 		9803D4D82C7D0AAB00BE2840 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9803D4D72C7D0AAB00BE2840 /* NetworkManager.swift */; };
 		9803D4DA2C7D0CD000BE2840 /* PostData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9803D4D92C7D0CD000BE2840 /* PostData.swift */; };
+		98F420762C7E4E530000FA3D /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F420752C7E4E530000FA3D /* DetailView.swift */; };
+		98F420782C7E51D10000FA3D /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F420772C7E51D10000FA3D /* WebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		9803D4CF2C7CB6B400BE2840 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9803D4D72C7D0AAB00BE2840 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NetworkManager.swift; path = Models/NetworkManager.swift; sourceTree = "<group>"; };
 		9803D4D92C7D0CD000BE2840 /* PostData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PostData.swift; path = Models/PostData.swift; sourceTree = "<group>"; };
+		98F420752C7E4E530000FA3D /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		98F420772C7E51D10000FA3D /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,8 @@
 				9803D4CE2C7CB6B400BE2840 /* Preview Content */,
 				9803D4D72C7D0AAB00BE2840 /* NetworkManager.swift */,
 				9803D4D92C7D0CD000BE2840 /* PostData.swift */,
+				98F420752C7E4E530000FA3D /* DetailView.swift */,
+				98F420772C7E51D10000FA3D /* WebView.swift */,
 			);
 			path = HackerNews;
 			sourceTree = "<group>";
@@ -146,6 +152,8 @@
 				9803D4CB2C7CB6B200BE2840 /* ContentView.swift in Sources */,
 				9803D4DA2C7D0CD000BE2840 /* PostData.swift in Sources */,
 				9803D4D82C7D0AAB00BE2840 /* NetworkManager.swift in Sources */,
+				98F420782C7E51D10000FA3D /* WebView.swift in Sources */,
+				98F420762C7E4E530000FA3D /* DetailView.swift in Sources */,
 				9803D4C92C7CB6B200BE2840 /* HackerNewsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

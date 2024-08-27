@@ -20,7 +20,9 @@ class NetworkingManager: ObservableObject{
                         do {
                             let results = try
                             decoder.decode(Results.self,from: safeData)
-                            self.post = results.hits
+                            DispatchQueue.main.async {
+                                self.post = results.hits
+                            }
                         } catch{
                             print(error)
                         }
