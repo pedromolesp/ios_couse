@@ -7,7 +7,8 @@
 
 import Foundation
 
-class NetworkingManager{
+class NetworkingManager: ObservableObject{
+    @Published var post = [Post]()
     func fetchData(){
         if let url = URL(string: "https://hn.algolia.com/api/v1/search?tags=front_page"){
             let sesion = URLSession(configuration: .default)
@@ -19,6 +20,7 @@ class NetworkingManager{
                         do {
                             let results = try
                             decoder.decode(Results.self,from: safeData)
+                            self.post = results.hits
                         } catch{
                             print(error)
                         }
