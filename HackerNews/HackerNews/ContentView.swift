@@ -14,8 +14,13 @@ struct ContentView: View {
         NavigationView{
             List(networkManager.post){
                 post in
-                Text(post.title)
-            }.navigationTitle("Hacker news")
+                NavigationLink( destination: DetailView(url: post.url)){
+                    HStack{
+                        Text(String(post.points))
+                        Text(post.title)
+                    }
+                }.navigationTitle("Hacker news")
+            }
         }
             .onAppear(
                 perform: {
